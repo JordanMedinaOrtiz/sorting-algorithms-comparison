@@ -1,3 +1,9 @@
+<p align="left">
+  <a href="README_ES.md" target="_blank">
+    Ver README en Español
+  </a>
+</p>
+
 # Sorting Algorithms Comparison
 
 This project implements and compares four classic sorting algorithms: **InsertionSort**, **MergeSort**, **HeapSort** and **QuickSort**.
@@ -80,3 +86,4 @@ The project should graphically demonstrate that:
 - Experiments use random integer arrays
 - Results may vary slightly between runs due to the random nature of the data
 - **Note**: For very large arrays (100,000+ elements), InsertionSort may cause overflow in the counter
+
