@@ -9,13 +9,11 @@ public class MergeSort {
     }
 
     private static <T extends Comparable<T>> void merge(T[] A, int left, int middle, int right) {
-        // Create temporary arrays
         T[] leftArray = Arrays.copyOfRange(A, left, middle + 1);
         T[] rightArray = Arrays.copyOfRange(A, middle + 1, right + 1);
 
         int i = 0, j = 0, k = left;
 
-        // Merge the temporary arrays back into A[left..right]
         while (i < leftArray.length && j < rightArray.length) {
             if (compare(leftArray[i], rightArray[j])) {
                 A[k] = leftArray[i];
@@ -27,14 +25,12 @@ public class MergeSort {
             k++;
         }
 
-        // Copy remaining elements of leftArray[], if any
         while (i < leftArray.length) {
             A[k] = leftArray[i];
             i++;
             k++;
         }
 
-        // Copy remaining elements of rightArray[], if any
         while (j < rightArray.length) {
             A[k] = rightArray[j];
             j++;
@@ -73,5 +69,6 @@ public class MergeSort {
         System.out.println();
         System.out.println("Number of comparisons: " + counter);
     }
+
 
 }
