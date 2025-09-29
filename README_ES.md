@@ -1,3 +1,9 @@
+<p align="left">
+  <a href="README_ES.md" target="_blank">
+    See README in English
+  </a>
+</p>
+
 # Comparación de Algoritmos de Ordenamiento
 
 Este proyecto implementa y compara cuatro algoritmos de ordenamiento clásicos: **InsertionSort**, **MergeSort**, **HeapSort** y **QuickSort**.
@@ -80,3 +86,4 @@ El proyecto debería demostrar gráficamente que:
 - Los experimentos usan arreglos de enteros aleatorios
 - Los resultados pueden variar ligeramente entre ejecuciones debido a la naturaleza aleatoria de los datos
 - **Nota**: Para arreglos muy grandes (100,000+ elementos), InsertionSort puede causar overflow en el contador
+
